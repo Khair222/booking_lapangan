@@ -223,7 +223,7 @@ Perangkat fisik Android (opsional, rekomendasi untuk testing API)
 
 🚀 Cara Menjalankan
 1️⃣ Clone Repo
-git clone https://github.com/booking-lapangan-app/project.git
+https://github.com/Khair222/booking_lapangan.git
 
 2️⃣ Install Dependencies
 flutter pub get
