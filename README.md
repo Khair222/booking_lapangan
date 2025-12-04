@@ -36,34 +36,55 @@ Komponen aplikasi mobile yang dibangun menggunakan Flutter.
 
 Berisi folder-folder berikut:
 
-lib/
- ├── screens/
- │    ├── about_app_screen.dart
- │    ├── all_fields_screen.dart
- │    ├── booking_screen.dart
- │    ├── check_booking_screen.dart
- │    ├── help_support_screen.dart
- │    ├── history_screen.dart
- │    ├── home_screen.dart
- │    ├── login_screen.dart
- │    ├── main_screen.dart
- │    ├── payment_screen.dart
- │    ├── profile_screen.dart
- │    ├── registration_screen.dart
- │    ├── settings_screen.dart
- │    ├── splash_screen.dart
- │    ├── topup_screen.dart
- ├── components/
- │    ├── booking_repository.dart
- │    ├── dummy_data.dart
- │    ├── widgets.dart
- ├── api/
- │    ├── api_service.dart
- ├── models/
- │    ├── models.dart
- ├── theme/
- │    ├── theme.dart
- └── main.dart
+flutter_app/
+├── android/
+├── ios/
+├── lib/
+│   ├── api/
+│   │   ├── api_service.dart
+│   │   └── api_endpoints.dart
+│   │
+│   ├── components/
+│   │   ├── booking_repository.dart
+│   │   ├── dummy_data.dart
+│   │   ├── widgets.dart
+│   │   └── state_management/
+│   │
+│   ├── models/
+│   │   ├── user_model.dart
+│   │   ├── field_model.dart
+│   │   ├── booking_model.dart
+│   │   └── models.dart
+│   │
+│   ├── screens/
+│   │   ├── splash_screen.dart
+│   │   ├── login_screen.dart
+│   │   ├── registration_screen.dart
+│   │   ├── main_screen.dart
+│   │   ├── home_screen.dart
+│   │   ├── all_fields_screen.dart
+│   │   ├── booking_screen.dart
+│   │   ├── payment_screen.dart
+│   │   ├── check_booking_screen.dart
+│   │   ├── history_screen.dart
+│   │   ├── profile_screen.dart
+│   │   ├── settings_screen.dart
+│   │   ├── topup_screen.dart
+│   │   ├── help_support_screen.dart
+│   │   └── about_app_screen.dart
+│   │
+│   ├── theme/
+│   │   ├── app_colors.dart
+│   │   ├── app_styles.dart
+│   │   └── theme.dart
+│   │
+│   └── main.dart
+│
+├── assets/
+│   ├── images/
+│   └── fonts/
+├── pubspec.yaml
+└── README.md
 
 
 2️⃣ REST API Backend (/api/)
