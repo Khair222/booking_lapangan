@@ -44,7 +44,7 @@ class _AllFieldsScreenState extends State<AllFieldsScreen> {
             ),
           ),
         ),
-        foregroundColor: Colors.white,
+        foregroundColor: Colors.getBookingsForFieldAndDate,
         elevation: 0,
       ),
       body: Column(
